@@ -1,46 +1,54 @@
-
+import {useState } from 'react';
 // mport desktop from "./images/bg-intro-desktop.png";
 import './App.css';
+import Display from './component/Display';
+import Avatar from "./component/Avatar";
+import Socials from "./component/Socials";
 
 function App() {
 
+  const [count, setCount] = useState(0)
+  const handleCount = () => {
+    setCount(count + 1)
+  }
+
+  // const {state, setState} = useState(initialState)
+  const [skills, setSkills] = useState('My name is Manuel');
+
+  const handleName = () => {
+    setSkills('My name is Manuel')
+  }
+
+  const handleSkill = () => {
+    setSkills('I am a Front-End Developer')
+  }
+
   return (
     <>
-    <div className= "container">
-      <main>
-        <div className="left-side">
-          <h2>Learn to code by<br></br>
-             watching others</h2>
-          <p>
-                See how experienced developers solve problems in real-time.<br></br>
-                watching scripted tutorials is great, but understanding how
-                developers think is invaluable.
-            </p>
-        </div>
-        <div className="right-side">
-          <div className="trial">
-              <a href="/"><strong>Try it free 7 days </strong> then $20/mo. thereafter</a>
-          </div>
-            <form className="form-field">
-                <input type="text" class="form-input" id="fname" name="fname" placeholder="Jonathan|"/>
-                <input type="text" class="form-input" id="lname" name="lname" placeholder="Last Name"/>
-                <input type="email" class="form-input" id="email" name="email" placeholder="Email Address"/>
-                <input type="password" class="form-input" id="password" name="password" placeholder="Password"/>
-                <input
-                    type="button"
-                    id="button3"
-                    name="button"
-                    placeholder="button"
-                    value="CLAIM YOUR FREE TRIAL"
-                />
-                <p className="terms">
-                    By clicking the button, you are agreeing to our
-                    <a href="/">Terms and Services</a>
-                </p>
-           </form>
-        </div>
-      </main>
+    <div className="main">
+      <div className="avi">
+        <Avatar />
+      </div>
+      <div className='appstyling'>
+        <Display tech={skills}/>
 
+        {/* DRY */}
+        {/* DIE */}
+
+        {/* lowercase = one */}
+        {/* PascalCase = TwoWords */}
+        {/* camelCase = twoWords */}
+
+        <div className='btns'>
+          <button onClick={handleName}>Name</button>
+          <button onClick={handleSkill}>Skill</button>
+        </div>
+        <div className="likes">
+          <p className="fas">{count}</p>
+          <i onClick={handleCount} class="fas fa-heart"></i>
+        </div>
+         <Socials/>
+        </div>
     </div>
     </>
   );

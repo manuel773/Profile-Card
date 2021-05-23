@@ -11,98 +11,52 @@ body{
   color: #ffffff;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-.container{
-  padding: 80px;
-} 
-
-.left-side {
-  margin: 20px;
-  text-align: center;
-}
-.left-side >h2{
-  font-size: 42px;
-  margin: 20px;
-}
-.left-side >p{
- text-align: left;
-}
-
-.right-side {
-  margin: 30px 20px;
-}
-
-.trial {
-  background-color: hsl(248, 32%, 49%);
-  border-radius: 8px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 10px;
-}
-.trial > a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.form-field {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 20px;
-  align-content: center;
-
-}
-
-.form-input {
-  padding: 10px;
-  margin: 8px auto;
-  border-radius: 8px;
-  font-size: 12px;
+.avi {
+  height: 90%;
   width: 90%;
-  outline: none;
-  border: 1px solid gray;
+  border-radius: 50%;
+  /* background-color: white; */
 }
 
-#button3 {
-  padding: 10px;
-  background-color: hsl(154, 59%, 51%);
-  color: white;
-  font-size: 15px;
-  letter-spacing: 1.5px;
+.main {
+position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.appstyling {
+  font-size: 25px;
+  justify-content: center;
+}
+
+.btns button{
+  padding: 1.5em;
   border: none;
-  width: 94%;
-}
-.terms {
-  text-align: center;
-  padding: 10px;
-  margin: 8px auto;
-  font-size: 10px;
-  color: #808080;
-}
-.terms > a {
-  color: hsl(0, 64%, 52%);
-  text-decoration: none;
-} 
-
-@media only screen and (min-width: 600px){
-  main {
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-
-  }
+  margin: 10px;
+  justify-content: center;
+  border-radius: 10px;
 }
 
-/* DRY 
-  Dont Repeat Yourself
-*/
-/* DIE 
-  Duplicate Is Evil
-*/
+.icons {
+  margin: 10px;
+  padding-left: 60px;
+}
+
+.likes {
+  color: red;
+ padding-left: 60px;
+}
+
+
+
 
 @media only screen and (min-width: 768px){
 
+}
+
+@media only screen and (min-width: 600px){
+.icons{
+  padding-left: 40px;
+}
 }
