@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Profile-Card/static/css/main.a6630e47.chunk.css",
+    "main.js": "/Profile-Card/static/js/main.0f99bcdf.chunk.js",
+    "main.js.map": "/Profile-Card/static/js/main.0f99bcdf.chunk.js.map",
+    "runtime-main.js": "/Profile-Card/static/js/runtime-main.280c6efe.js",
+    "runtime-main.js.map": "/Profile-Card/static/js/runtime-main.280c6efe.js.map",
+    "static/js/2.fdb3ddae.chunk.js": "/Profile-Card/static/js/2.fdb3ddae.chunk.js",
+    "static/js/2.fdb3ddae.chunk.js.map": "/Profile-Card/static/js/2.fdb3ddae.chunk.js.map",
+    "static/js/3.619ece76.chunk.js": "/Profile-Card/static/js/3.619ece76.chunk.js",
+    "static/js/3.619ece76.chunk.js.map": "/Profile-Card/static/js/3.619ece76.chunk.js.map",
+    "index.html": "/Profile-Card/index.html",
+    "static/css/main.a6630e47.chunk.css.map": "/Profile-Card/static/css/main.a6630e47.chunk.css.map",
+    "static/js/2.fdb3ddae.chunk.js.LICENSE.txt": "/Profile-Card/static/js/2.fdb3ddae.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Profile-Card/static/media/bg-intro-desktop.059183ee.png",
+    "static/media/man-svgrepo-com.664871d9.svg": "/Profile-Card/static/media/man-svgrepo-com.664871d9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.280c6efe.js",
+    "static/js/2.fdb3ddae.chunk.js",
+    "static/css/main.a6630e47.chunk.css",
+    "static/js/main.0f99bcdf.chunk.js"
+  ]
+}
